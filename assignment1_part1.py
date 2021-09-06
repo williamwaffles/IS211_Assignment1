@@ -11,8 +11,8 @@ def listDivide(numbers, divide = 2):
             result += 1
     return result
 
-
-    #return sum(n % divide == 0 for n in numbers)
+# one liner function that appears to do the same as above
+# return sum(n % divide == 0 for n in numbers)
 
 #test case for
 #print(listDivide([1 ,3 ,6 ,2 ,4]))
